@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Mason Loring Galusha – Portfolio (In Progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This site is under active development and will serve as the central hub for my **web projects** and future endeavors in **automation, AI, and full-stack development**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Current Focus
 
-## Expanding the ESLint configuration
+- **Portfolio Website**: Building a clean, modern showcase for my skills, background, and upcoming projects.
+- **Grocery List App**: Designing a web application to manage grocery lists, track budgets, and eventually integrate real-time pricing and AI recommendations.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Recent Projects
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Basic To-Do List** (Beginner Project)
+- **Valentine’s Day Themed App** (Small, fun project)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+These helped me practice foundational web development skills. Now I’m moving on to more advanced and feature-rich applications.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Coming Soon
+
+- **Detailed Project Overviews**: As I complete each major project, I’ll add screenshots, live demos, and technical breakdowns.
+- **Tech Stack & Tools**: Planning to explore **Node.js**, **React**, and possibly AI frameworks, but I’m keeping options open for now.
+- **Backend & Databases**: Currently investigating the best approaches to handle user data, authentication, and real-time features.
+
+---
+
+## Stay Tuned
+
+## I’ll be updating this portfolio over the next few weeks. Feel free to check back to see progress on my **Grocery List App** and other planned projects!
+
+_Thank you for visiting, and I look forward to sharing more soon!_
